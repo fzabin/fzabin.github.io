@@ -1,1 +1,112 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fernando Zabin</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Open Sans', 'Helvetica Neue';
+    }
+
+    h1 {
+      margin-bottom: 1.5rem;
+      color: #111111;
+      font-weight: 600;
+      font-size: 2.5rem;
+      line-height: 1.125;
+    }
+
+    h2 {
+      margin-top: -1.25rem;
+      margin-bottom: 1.5rem;
+      color: #4a4a4a;
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 1.25;
+    }
+
+    p {
+      color: #4a4a4a;
+      font-size: 1em;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    #profile-pic {
+      margin-bottom: 10px;
+      border-radius: 80px;
+    }
+
+    .main-section {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      width: 800px;
+      padding: 5.75rem;
+      text-align: center;
+    }
+
+    .button {
+      cursor: pointer;
+      padding-bottom: calc(0.5em - 1px);
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: calc(0.5em - 1px);
+      -webkit-appearance: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      box-shadow: none;
+      display: inline-flex;
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #0a0a0a;
+    }
+
+    .button:visited {
+      text-decoration: none;
+      color: #0a0a0a;
+    }
+
+    .button:hover {
+      background-color: #f7f7f7;
+    }
+  </style>
+</head>
+<body>
+  <section class="main-section">
+    <div class="content-wrapper">
+      <img id="profile-pic" src="./profile.jpg" width="160" height="160" alt="A Fernando Zabin`s profile picture">
+      <h1>Fernando Zabin</h1>
+      <h2>6+ years in tech. Backend, frontend, mobile, coffee…</h2>
+      <p>Vegan, gamer and father of four animals. Who loves building things and solving real problems through software.
+      </p>
+      <br>
+      <p>
+        <a class="button" href="https://github.com/fzabin">GitHub</a>
+        <a class="button" href="https://twitter.com/fernandozabin">Twitter</a>
+        <a class="button" href="https://br.linkedin.com/in/fernandozabin">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+</body>
+</html>
